@@ -26,9 +26,9 @@ console.log(isEvenConcat(5));
 //  écrire votre code sous ce commentaire
     function isEvenConcat(a) {
         if (a%2 === 0) {
-            return ("a est pair");
+            return (a + " est pair ");
         }
         else {
-            return ("a est impair");
+            return (a + " est impair ");
         }
     }
